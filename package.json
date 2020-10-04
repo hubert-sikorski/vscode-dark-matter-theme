@@ -1,0 +1,37 @@
+{
+  "name":"dark-matter",
+  "displayName":"Dark Matter",
+  "description":"High contrast dark theme for Visual Studio Code",
+  "version":"1.0.0",
+  "publisher":"princeelector",
+  "author":{
+    "name":"Hubert Sikorski"
+  },
+  "engines":{
+    "vscode":"^1.49.0"
+  },
+  "categories":[
+    "Themes"
+  ],
+  "contributes":{
+    "themes":[
+      {
+        "label":"Dark Matter",
+        "uiTheme":"vs-dark",
+        "path":"./themes/dark-matter.json"
+      }
+    ]
+  },
+  "icon":"images/dark-matter-icon.png",
+  "galleryBanner":{
+    "color":"#000000",
+    "theme":"dark"
+  },
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/princeelector/vscode-dark-matter-theme.git"
+  },
+  "bugs":{
+    "url":"https://github.com/princeelector/vscode-dark-matter-theme/issues"
+  }
+}
