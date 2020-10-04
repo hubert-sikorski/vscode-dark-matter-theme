@@ -43,13 +43,13 @@
     {
       "scope":"constant.language.boolean.false",
       "settings":{
-        "foreground":"#dc143c",
+        "foreground":"#ff0000",
       }
     },
     {
       "scope":"constant.language.boolean.true",
       "settings":{
-        "foreground":"#32cd32",
+        "foreground":"#00ff00",
       }
     },
     {
@@ -98,16 +98,16 @@
       "name":"Class name",
       "scope":"entity.name.class",
       "settings":{
-        "fontStyle":"underline",
-        "foreground":"#a6e22e"
+        "fontStyle":"bold italic",
+        "foreground":"#18ffff"
       }
     },
     {
       "name":"Inherited class",
       "scope":"entity.other.inherited-class",
       "settings":{
-        "fontStyle":"italic underline",
-        "foreground":"#a6e22e"
+        "fontStyle":"bold italic",
+        "foreground":"#3cb9fc"
       }
     },
     {
@@ -120,15 +120,15 @@
       ],
       "settings":{
         "fontStyle":"bold italic",
-        "foreground":"#3cb9fc"
+        "foreground":"#0084ff"
       }
     },
     {
       "name":"Function argument",
       "scope":"variable.parameter",
       "settings":{
-        "fontStyle":"italic",
-        "foreground":"#fd971f"
+        "fontStyle":"bold italic",
+        "foreground":"#18ffff"
       }
     },
     {
@@ -163,7 +163,7 @@
       "scope":"support.function",
       "settings":{
         "fontStyle":"",
-        "foreground":"#3cb9fc"
+        "foreground":"#0084ff"
       }
     },
     {
@@ -378,10 +378,16 @@
     {
       "scope":[
         "variable.other.object.property",
-        "variable.other.property",
       ],
       "settings":{
         "foreground":"#3cb9fc",
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "scope":"variable.other.property",
+      "settings":{
+        "foreground":"#18ffff",
         "fontStyle": "bold italic"
       }
     },
@@ -539,7 +545,7 @@
     "scrollbarSlider.hoverBackground": "#ffffff66",
     "sideBar.background": "#000000",
     "sideBar.border": "#ffffff20",
-    "sideBar.foreground": "#ffffff99",
+    "sideBar.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#000000",
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarTitle.foreground": "#000000",
