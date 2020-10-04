@@ -2,3 +2,4 @@ node_modules
 *.vsix
 themes/examples/
 vsc-extension-quickstart.md
+personal-access-token.txt
