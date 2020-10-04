@@ -3,3 +3,5 @@
 .gitignore
 vsc-extension-quickstart.md
 themes/examples/
+personal-access-token.txt
+docs
