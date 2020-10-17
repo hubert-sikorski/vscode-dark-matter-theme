@@ -115,9 +115,7 @@
       "scope":[
         "entity.name.function",
         "entity.name.type",
-        "support.function.js",
-        "support.function.misc",
-        "support.function.json"
+        "support.function."
       ],
       "settings":{
         "fontStyle":"bold italic",
@@ -477,7 +475,7 @@
     "editorCursor.foreground": "#ffffff",
     "editorError.foreground": "#f08080",
     "editorGroup.border": "#181a1f",
-    "editorGroup.emptyBackground": "#0c0c0c",
+    "editorGroup.emptyBackground": "#000000",
     "editorGroupHeader.tabsBackground": "#000000",
     "editorGutter.addedBackground": "#3cb9fc",
     "editorGutter.deletedBackground": "#f08080",
@@ -504,7 +502,7 @@
     "editorSuggestWidget.selectedBackground": "#2c313a",
     "editorWarning.foreground": "#ffab40",
     "editorWhitespace.foreground": "#ffffff66",
-    "editorWidget.background": "#1e1e1e",
+    "editorWidget.background": "#000000",
     "editorWidget.border": "#3cb9fc00",
     "errorForeground": "#f08080",
     "extensionButton.prominentBackground": "#3cb9fc",
