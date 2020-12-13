@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.4.0
+
+- Added new theme colors
+- Improved contrast
+- Improved css/scss punctuation, entities and properties
+
 ## 1.3.1
 
 - Added correct looks for JSON support functions
