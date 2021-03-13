@@ -384,22 +384,22 @@
     {
       "scope":[
         "meta.brace.round",
-        "punctuation.definition.parameters",
         "meta.brace.square",
-        "punctuation.definition.block",
-        "punctuation.definition.generic",
-        "punctuation.section.property-list",
-        "punctuation.definition.media-query",
-        "punctuation.definition.dictionary",
-        "punctuation.definition.array",
-        "punctuation.section.keyframes.begin",
-        "punctuation.section.keyframes.end",
-        "punctuation.section.function",
-        "punctuation.definition.typeparameters"
+        "punctuation.section",
+        "punctuation.definition"
       ],
       "settings":{
         "foreground":"#ffff33",
         "fontStyle":"bold italic"
+      }
+    },
+    {
+      "scope":[
+        "punctuation.definition.string.template"
+      ],
+      "settings":{
+        "foreground":"#f700ff",
+        "fontStyle":"bold"
       }
     },
     {
@@ -503,7 +503,11 @@
     },
     {
       "scope":[
-        "source.ignore"
+        "source.ignore",
+        "meta.scope.recipe.makefile",
+        "source.env",
+        "source.ini",
+        "source.shell"
       ],
       "settings":{
         "foreground":"#ffffff",
@@ -517,7 +521,7 @@
         "string.regexp punctuation.definition.string.end"
       ],
       "settings":{
-        "foreground":"#ffff33",
+        "foreground":"#ff1476",
         "fontStyle":"bold"
       }
     },
@@ -538,6 +542,15 @@
       "settings":{
         "foreground":"#3cb9fc",
         "fontStyle":"bold italic"
+      }
+    },
+    {
+      "scope":[
+        "punctuation.section.embedded.begin.php"
+      ],
+      "settings":{
+        "foreground":"#8892be",
+        "fontStyle":"bold"
       }
     },
   ],
