@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.5.0
+
+- Enhances JS/TS support
+- Source files support
+- Change of color hierarchy
+- Markdown changes
+
 ## 1.4.0
 
 - Added new theme colors

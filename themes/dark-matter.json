@@ -15,7 +15,10 @@
     },
     {
       "name":"String",
-      "scope":"string",
+      "scope":[
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings":{
         "foreground":"#ffffff",
         "fontStyle":"bold italic"
@@ -386,20 +389,12 @@
         "meta.brace.round",
         "meta.brace.square",
         "punctuation.section",
-        "punctuation.definition"
+        "punctuation.definition",
+        "punctuation.definition.string.template"
       ],
       "settings":{
         "foreground":"#ffff33",
         "fontStyle":"bold italic"
-      }
-    },
-    {
-      "scope":[
-        "punctuation.definition.string.template"
-      ],
-      "settings":{
-        "foreground":"#f700ff",
-        "fontStyle":"bold"
       }
     },
     {
